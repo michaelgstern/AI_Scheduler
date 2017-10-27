@@ -1,0 +1,13 @@
+package artificial.intelligence.cpsc;
+
+public class LabSlot extends TimeSlot{
+	private int labMax;
+	private int labMin;
+	
+	public LabSlot(String day, String startTime, int labMax, int labMin){
+		this.day = day;
+		this.startTime = startTime;
+		this.labMax = labMax;
+	}
+
+}

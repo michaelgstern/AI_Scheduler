@@ -1,0 +1,11 @@
+package artificial.intelligence.cpsc;
+
+public class Main {
+
+	private static final string INPUTFILENAME = "";
+	
+	public static void main(String[] args) {
+		Parser p = new Parser();
+		p.parse(INPUTFILENAME);
+	}
+}

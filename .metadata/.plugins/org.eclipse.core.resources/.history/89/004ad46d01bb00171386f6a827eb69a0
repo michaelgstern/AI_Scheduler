@@ -1,0 +1,62 @@
+package artificial.intelligence.cpsc;
+
+import java.io.*;
+
+public class Parser {
+	
+	String line = null;
+	
+	public Parser(String inputFileName){
+		try{
+			//Read Text File
+			FileReader fileReader = new FileReader(inputFileName);
+			
+			//Wrap FileReader in BufferedReader
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			
+			//Name
+			while(!(line = bufferedReader.readLine()).isEmpty()){
+				System.out.println(line);
+			}
+			
+			//Course Slots
+			while((line = bufferedReader.readLine()).isEmpty()){
+				System.out.println("EMPTY");
+			}
+			//line = bufferedReader.readLine();
+			while(!(line = bufferedReader.readLine()).isEmpty()){
+				String[] info = new String[4];
+				info = line.split(",");
+				for (String s : info){
+					System.out.println(s);
+				}
+				//CourseSlot cs = new CourseSlot(info[0], info[1], Integer.parseInt(info[2]), Integer.parseInt(info[3]));
+				System.out.println(cs.toString());
+			}
+			
+			//Lab Slots
+			
+			//Courses
+			
+			//Labs
+			
+			//Not Compatible
+			
+			//Unwanted
+			
+			//Preference
+			
+			//Pair
+			
+			//Partial Assignments
+			
+			//Close file
+			bufferedReader.close();
+			
+		} catch (FileNotFoundException e){
+			System.out.println("Unable to open file '" + inputFileName + "'");
+		} catch (IOException e){
+			System.out.println("Error reading file '" + inputFileName + "'");
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package artificial.intelligence.cpsc;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

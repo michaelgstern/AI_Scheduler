@@ -1,0 +1,5 @@
+package artificial.intelligence.cpsc;
+
+public class TimeSlot {
+	private String day;
+}

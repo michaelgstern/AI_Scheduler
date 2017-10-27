@@ -1,0 +1,6 @@
+package artificial.intelligence.cpsc;
+
+public class CourseSlot extends TimeSlot{
+	private int courseMax;
+	private int courseMin;
+}
