@@ -92,6 +92,7 @@ public class Parser {
 				if(numTerms == 4) {
 					l.setBelongsTo(null);
 				} else {
+					//NOT WORKING PROPERLY
 					for(Course c : courses) {
 						if(c.getDepartment().equals(info[0].replaceAll("\\s+", "")) && 
 								c.getClassNumber().equals(info[1].replaceAll("\\s+", "")) && 
