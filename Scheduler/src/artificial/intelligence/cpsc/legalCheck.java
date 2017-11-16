@@ -35,7 +35,7 @@ public class legalCheck {
 			}
 			
 		)
-		return false;
+		return true;
 	}
 
 	public boolean compatibleCheck(Classes classOne, Classes classTwo) {
