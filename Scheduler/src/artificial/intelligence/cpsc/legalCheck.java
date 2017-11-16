@@ -34,8 +34,8 @@ public class legalCheck {
 				return false;
 			}
 			
-		}
-		return true;
+		)
+		return false;
 	}
 
 	public boolean compatibleCheck(Classes classOne, Classes classTwo) {
