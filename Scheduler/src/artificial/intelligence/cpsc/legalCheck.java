@@ -47,7 +47,7 @@ public class legalCheck {
 				return false;
 			}
 			
-		)
+		}
 		return true;
 	}
 		

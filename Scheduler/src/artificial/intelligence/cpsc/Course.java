@@ -1,6 +1,7 @@
 package artificial.intelligence.cpsc;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Course extends Classes {
 	private ArrayList<Lab> labs;
@@ -30,5 +31,10 @@ public class Course extends Classes {
 	
 	public void addLab(Lab lab_) {
 		this.labs.add(lab_);
+	}
+
+	public List<Lab> getLabs() {
+		// TODO Auto-generated method stub
+		return labs;
 	}
 }
